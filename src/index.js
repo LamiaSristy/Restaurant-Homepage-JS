@@ -43,6 +43,7 @@ menuBtn.onclick = () => {
   contactEl.classList.remove('banner-show');
   homeBtn.classList.remove('active');
   menuBtn.classList.add('active');
+  contactBtn.classList.remove('active');
 };
 
 contactBtn.onclick = () => {

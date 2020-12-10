@@ -31,8 +31,10 @@ hr {
 }
 
 a:hover {
-  background-color: #ffa;
+  background-color: rgb(236, 186, 47);
   color: brown !important;
+  cursor: -webkit-grab; 
+  cursor: grab;
 }
 
 .active {
