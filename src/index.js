@@ -1,30 +1,48 @@
 import _ from 'lodash';
 import './style.css';
 import Icon from './icon.jpg';
-
+import navbar from './navbar';
 import banner from './banner';
+import cuisinelist from './cuisinelist';
+import cuisine from './cuisine';
+import chef from './chef';
+import menu from './menu';
+import contact from './contact';
 
-banner();
+const bannerEl = banner();
+const menuEl = menu();
+const contactEl = contact();
 
-// function component() {
-//   const element = document.createElement('div');
+document.body.prepend(navbar());
+const homeBtn = document.getElementById('home');
+const menuBtn = document.getElementById('menu');
+const contactBtn = document.getElementById('contact');
 
-//   // Lodash, now imported by this script
-//   // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+homeBtn.onclick = () => {
+  bannerEl.classList.add('banner-show');
+  menuEl.classList.remove('banner-show');
+  contactEl.classList.remove('banner-show');
+};
 
-//   // Add the image to our existing div.
-//   // const myIcon = new Image();
-//   // myIcon.src = Icon;
+menuBtn.onclick = () => {
+  bannerEl.classList.remove('banner-show');
+  menuEl.classList.add('banner-show');
+  contactEl.classList.remove('banner-show');
+};
 
-//   // element.appendChild(myIcon);
+contactBtn.onclick = () => {
+  bannerEl.classList.remove('banner-show');
+  menuEl.classList.remove('banner-show');
+  contactEl.classList.add('banner-show');
+};
 
-//   element.innerHTML = banner();
-  
-//   return element;
-//   }
-//   document.body.appendChild(component());
-  
+const parent = document.createElement('div');
+parent.appendChild(bannerEl);
+parent.appendChild(menuEl);
+parent.appendChild(contactEl);
 
-
-
+const varcuisine = cuisinelist();
+document.getElementById('content').appendChild(parent);
+document.getElementById('content').appendChild(cuisine(varcuisine));
+document.getElementById('content').appendChild(chef());
   
