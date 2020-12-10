@@ -1,4 +1,5 @@
 # PROJECT: Restaurant-Homepage
+This project is focusing on dynamically rendering a simple restaurant homepage, using DOM manipulation in JavaScript.
 
 ## Live Demo:
 
