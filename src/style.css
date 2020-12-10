@@ -1,0 +1,19 @@
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  
+ 
+}
+
+.navbar-light {
+  background: blue !important;
+  color:#fff;
+}
