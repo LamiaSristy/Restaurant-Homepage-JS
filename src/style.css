@@ -8,12 +8,91 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  
- 
+  font-family: "Helvetica Neue", Arial, sans-serif; 
+  background-color: rgb(77, 75, 75);
+}
+
+h2,
+h3 {
+  margin: 20px;
+  text-align: center;
+  color: bisque;
 }
 
 .navbar-light {
-  background: blue !important;
+  background: black !important;
   color:#fff;
+}
+
+#content {  
+  margin: 50px 20px 20px 20px;  
+}
+
+.banner {  
+  /* height: 400px; */
+  background: url('./icon.jpg');
+  background-size: 100% 100%;
+  height: 100%;
+  padding: 50px 50px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.jumbotron {
+  /* background: transparent !important; */
+  background-color: rgba(0,0,0,0.5) !important; 
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: brown !important;
+  border: brown;
+}
+
+.menu {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  box-shadow: 5px 10px rgb(49, 49, 49);
+  background-color: rgb(165, 151, 103);
+}
+
+.card:hover {
+  transform: scale(1.02, 1.02);
+}
+
+.card-img-top {
+  padding: 10px;
+  width: 100%;
+  height: 200px; 
+}
+
+.card-body {
+  padding: 10px;
+}
+
+
+.chef {
+  /* margin: 20px; */
+  padding: 30px;
+}
+
+.chef-intro {
+  display: flex;  
+  text-align: center; 
+  background-color: black;
+  color: antiquewhite;
+}
+
+.chef-bio {
+  margin: 100px auto;
+  padding: 50px;  
+}
+
+.chef-img {
+  height: 450px;
 }
