@@ -12,7 +12,7 @@ const navbar = () => {
   navli1.classList.add('nav-item');
   navli2.classList.add('nav-item');
   navli3.classList.add('nav-item');
-  nava1.classList.add('nav-link');
+  nava1.classList.add('nav-link', 'active');
   nava2.classList.add('nav-link');
   nava3.classList.add('nav-link');
 
