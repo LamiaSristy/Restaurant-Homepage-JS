@@ -1,6 +1,4 @@
-import _ from 'lodash';
 import './style.css';
-import Icon from './icon.jpg';
 import navbar from './navbar';
 import banner from './banner';
 import cuisinelist from './cuisinelist';
@@ -27,7 +25,7 @@ const varcuisine = cuisinelist();
 document.getElementById('content').appendChild(parent);
 document.getElementById('content').appendChild(cuisine(varcuisine));
 document.getElementById('content').appendChild(chef());
-  
+
 homeBtn.onclick = () => {
   bannerEl.classList.add('banner-show');
   menuEl.classList.remove('banner-show');

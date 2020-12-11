@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif; 
+  font-family: "Helvetica Neue", Arial, sans-serif;
   background-color: rgb(77, 75, 75);
 }
 
@@ -20,8 +20,7 @@ h3 {
 }
 
 hr {
-  background-color:bisque !important;
-  /* height: 1px; */
+  background-color: bisque !important;
 }
 
 .navbar-light {
@@ -33,7 +32,7 @@ hr {
 a:hover {
   background-color: rgb(236, 186, 47);
   color: brown !important;
-  cursor: -webkit-grab; 
+  cursor: -webkit-grab;
   cursor: grab;
 }
 
@@ -42,11 +41,11 @@ a:hover {
   color: brown !important;
 }
 
-#content {  
-  margin: 50px 20px 20px 20px;  
+#content {
+  margin: 50px 20px 20px 20px;
 }
 
-.banner {  
+.banner {
   background: url('./icon.jpg');
   background-size: 100% 100%;
   height: 100%;
@@ -61,8 +60,7 @@ a:hover {
 }
 
 .jumbotron {
-  /* background: transparent !important; */
-  background-color: rgba(0,0,0,0.5) !important; 
+  background-color: rgba(0, 0, 0, 0.5) !important;
   text-align: center;
   color: #fff;
   border-radius: 10px;
@@ -90,29 +88,27 @@ a:hover {
 .card-img-top {
   padding: 10px;
   width: 100%;
-  height: 200px; 
+  height: 200px;
 }
 
 .card-body {
   padding: 10px;
 }
 
-
 .chef {
-  /* margin: 20px; */
   padding: 30px;
 }
 
 .chef-intro {
-  display: flex;  
-  text-align: center; 
+  display: flex;
+  text-align: center;
   background-color: black;
   color: antiquewhite;
 }
 
 .chef-bio {
   margin: 100px auto;
-  padding: 50px;  
+  padding: 50px;
 }
 
 .chef-img {
