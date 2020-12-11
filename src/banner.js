@@ -13,7 +13,7 @@ const banner = () => {
   hrel.classList.add('my-4');
   bookbutton.classList.add('btn', 'btn-primary', 'btn-lg');
 
-  jumbotrontitleel.textContent = 'Wellcome.';
+  jumbotrontitleel.textContent = 'Welcome!!';
   jumbotronpel1.textContent = 'Stop, eat and go! Now you are eating! What are you eating today? It is Good Mood Food!';
   jumbotronpel2.textContent = 'We provide all the foods from our best pantries and you can also take away.';
   bookbutton.textContent = 'Book a table';
