@@ -2,9 +2,10 @@
 This project is focusing on dynamically rendering a simple restaurant homepage, using DOM manipulation in JavaScript.
 
 ## Live Demo:
+[Live](https://raw.githack.com/LamiaSristy/Restaurant-Homepage-JS/gh-pages/index.html)
 
 ## Screen-shots:
-
+<img src="assets/img/screencapture.png">
 
 ## Build-With
 
