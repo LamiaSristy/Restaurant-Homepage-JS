@@ -1,4 +1,4 @@
-import './style.css';
+import './stylesheet/style.css';
 import navbar from './navbar';
 import banner from './banner';
 import cuisinelist from './cuisinelist';
@@ -26,29 +26,28 @@ document.getElementById('content').appendChild(parent);
 document.getElementById('content').appendChild(cuisine(varcuisine));
 document.getElementById('content').appendChild(chef());
 
+const displayOnClicked = (ind) => {
+  const pageEl = [bannerEl, menuEl, contactEl];
+  const buttons = [homeBtn, menuBtn, contactBtn];
+  pageEl.forEach((li, index) => {
+    if (index === ind) {
+      li.classList.add('banner-show');
+      buttons[index].classList.add('active');
+    } else {
+      li.classList.remove('banner-show');
+      buttons[index].classList.remove('active');
+    }
+  });
+};
+
 homeBtn.onclick = () => {
-  bannerEl.classList.add('banner-show');
-  menuEl.classList.remove('banner-show');
-  contactEl.classList.remove('banner-show');
-  homeBtn.classList.add('active');
-  menuBtn.classList.remove('active');
-  contactBtn.classList.remove('active');
+  displayOnClicked(0);
 };
 
 menuBtn.onclick = () => {
-  bannerEl.classList.remove('banner-show');
-  menuEl.classList.add('banner-show');
-  contactEl.classList.remove('banner-show');
-  homeBtn.classList.remove('active');
-  menuBtn.classList.add('active');
-  contactBtn.classList.remove('active');
+  displayOnClicked(1);
 };
 
 contactBtn.onclick = () => {
-  bannerEl.classList.remove('banner-show');
-  menuEl.classList.remove('banner-show');
-  contactEl.classList.add('banner-show');
-  homeBtn.classList.remove('active');
-  menuBtn.classList.remove('active');
-  contactBtn.classList.add('active');
+  displayOnClicked(2);
 };
