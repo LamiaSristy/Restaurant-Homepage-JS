@@ -1,4 +1,4 @@
-import './stylesheet/style.css';
+import './style.css';
 import navbar from './navbar';
 import banner from './banner';
 import cuisinelist from './cuisinelist';
