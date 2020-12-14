@@ -23,6 +23,10 @@ hr {
   background-color: bisque !important;
 }
 
+#content {
+  margin: 50px 5px 20px 5px;
+}
+
 .navbar-light {
   background: black !important;
   padding: 20px;
