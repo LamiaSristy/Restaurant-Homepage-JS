@@ -137,3 +137,26 @@ a:hover {
   height: 100%;
   border-radius: 5px;
 }
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(49, 49, 49);
+  color: #fff;
+}
+
+footer p {
+  margin-top: 15px;
+}
+
+footer li {
+  list-style: none;
+}
+
+.flexfooter {
+  display: flex;
+  justify-content: center;
+}

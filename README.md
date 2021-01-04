@@ -5,7 +5,7 @@ This project is focusing on dynamically rendering a simple restaurant homepage, 
 [Live](https://raw.githack.com/LamiaSristy/Restaurant-Homepage-JS/gh-pages/index.html)
 
 ## Screen-shots:
-<img src="assets/img/screencapture.png">
+<img src="assets/img/screencapture-App.png">
 
 ## Build-With
 
