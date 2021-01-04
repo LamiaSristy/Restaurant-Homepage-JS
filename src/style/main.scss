@@ -1,0 +1,162 @@
+@import 'bootstrap';
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: rgb(77, 75, 75);
+}
+
+h2,
+h3 {
+  margin: 20px;
+  text-align: center;
+  color: bisque;
+}
+
+hr {
+  background-color: bisque !important;
+}
+
+a {
+  color: bisque;
+}
+
+#content {
+  margin: 50px 5px 20px 5px;
+}
+
+.navbar-light {
+  background: black !important;
+  padding: 20px;
+  color: #fff;
+}
+
+a:hover {
+  background-color: rgb(236, 186, 47);
+  color: brown !important;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.active {
+  background-color: #fff;
+  color: brown !important;
+}
+
+.banner {
+  background: url('../icon.jpg');
+  background-size: 100% 100%;
+  height: 100%;
+  padding: 50px 50px;
+  margin: 20px;
+  border-radius: 20px;
+  display: none;
+}
+
+.banner-show {
+  display: block;
+}
+
+.lead {
+  font-size: large;
+  font-weight: 700;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: brown !important;
+  border: brown;
+}
+
+.menu {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  margin-bottom: 10px;
+  box-shadow: 5px 10px rgb(49, 49, 49);
+  background-color: rgb(165, 151, 103);
+}
+
+.card:hover {
+  transform: scale(1.02, 1.02);
+}
+
+.card-img-top {
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.chef {
+  padding: 30px;
+}
+
+.chef-intro {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+
+.chef-bio {
+  margin: 50px auto;
+  padding: 50px;
+}
+
+.chef-img {
+  margin: 0 auto;
+  width: 250px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(49, 49, 49);
+  color: #fff;
+}
+
+footer p {
+  margin-top: 15px;
+}
+
+footer li {
+  list-style: none;
+}
+
+.flexfooter {
+  display: flex;
+  justify-content: center;
+}
